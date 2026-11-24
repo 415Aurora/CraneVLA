@@ -1,0 +1,37 @@
+{
+  "prepared": "2026-11-24",
+  "assets": [
+    {
+      "file": "pixel-training-comparison.png",
+      "source_relative_to_project": "../../tower-crane-pico-unity/evaluation-reports/pixel-supervision/training-history.png",
+      "sha256": "b4dc24dc6658cbd0eeb0e5e022f01d594e02f6890ab9467c4e2a0302a8806440",
+      "bytes": 177400,
+      "interpretation": "Historical paired training, 50-step moving means, logarithmic y axes; not closed-loop success.",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "file": "occlusion-diagnostic.jpg",
+      "source_relative_to_project": "../../tower-crane-pico-unity/evaluation-reports/cabin-action-ablation/occlusion-pair-examples.jpg",
+      "sha256": "bdf7ea7071b0667d03cf1ce995ad8d42ff517ec240d8e1d8932c20bcc681eced",
+      "bytes": 227563,
+      "interpretation": "Offline intervention examples; not an autonomous success demonstration.",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "file": "control-training-history.csv",
+      "source_relative_to_project": "../../tower-crane-pico-unity/evaluation-reports/pixel-supervision/control-tensorboard/training-history.csv",
+      "sha256": "70f0d08eff1f2e17c286a9745c5ddfb3def8751a8c230d52e9b66eedeee621a5",
+      "bytes": 719009,
+      "interpretation": "Archived scalar data for control arm.",
+      "transformation": "none; byte-for-byte copy"
+    },
+    {
+      "file": "pixel-training-history.csv",
+      "source_relative_to_project": "../../tower-crane-pico-unity/evaluation-reports/pixel-supervision/pixel-tensorboard/training-history.csv",
+      "sha256": "cd037b469f81ab1d165ddfdeaf6d77ea93d2ff1066fa007c0802e25612f26532",
+      "bytes": 719301,
+      "interpretation": "Archived scalar data for pixel arm.",
+      "transformation": "none; byte-for-byte copy"
+    }
+  ]
+}
